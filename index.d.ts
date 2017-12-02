@@ -1,7 +1,2 @@
-interface ILoadClassOptions {
-  target: any;
-  options: object;
-}
-
-declare function loadClass(schema: any, {target: any , options: object}:ILoadClassOptions): void;
+declare function loadClass(schema: any, {target: any , options: object}:any): void;
 export = loadClass;
